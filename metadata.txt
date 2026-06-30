@@ -1,0 +1,18 @@
+[general]
+name=LRN/GBIF
+qgisMinimumVersion=3.28
+qgisMaximumVersion=4.99
+description=Download and filter GBIF occurrences, combine them with user point layers, calculate AOO and EOO, and export IUCN-compatible Point Distribution outputs.
+version=1.14.1
+author=Alfaro-Saiz Estrella
+email=ealfsz@unileon.es
+about=LRN/GBIF is a QGIS plugin for preliminary Red List spatial assessment workflows. It downloads GBIF occurrence records with methodological filters, supports manual points and imported point layers, calculates Area of Occupancy (AOO) using a configurable grid and Extent of Occurrence (EOO) using a convex hull, and exports IUCN-compatible Point Distribution data as CSV or shapefile. It includes audit tables for records removed by filters and tools to request an official GBIF occurrence download DOI for the GBIF records used. The results are intended to support expert review and do not replace a full IUCN Red List assessment.
+credits=Grupo de Especialistas de Especies IUCN España
+category=Vector
+tags=GBIF,AOO,EOO,IUCN,conservation,flora,occurrences,Red List
+homepage=https://github.com/EstrellaAlfaroSaiz/aoo_eoo_gbif_pro
+tracker=https://github.com/EstrellaAlfaroSaiz/aoo_eoo_gbif_pro/issues
+repository=https://github.com/EstrellaAlfaroSaiz/aoo_eoo_gbif_pro
+experimental=False
+deprecated=False
+license=GPL-3.0-or-later
